@@ -3,7 +3,11 @@
     "version": "0.0.1",
     "private": true,
     "devDependencies": {
-        "react-scripts": "1.1.0"
+        "ajv": "^6.4.0",
+        "gh-pages": "^1.1.0",
+        "react-scripts": "1.1.0",
+        "react-select": "^1.2.1",
+        "topojson-client": "^3.0.0"
     },
     "homepage": "https://donsalvadori.github.io/salaries-old",
     "dependencies": {
