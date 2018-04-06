@@ -1,24 +1,26 @@
 {
-    "name": "migrations-map",
-    "version": "0.1.0",
+    "name": "react-d3js-h1b-example",
+    "version": "0.0.1",
     "private": true,
     "devDependencies": {
-        "gh-pages": "0.12.0",
-        "react-scripts": "0.8.5"
+        "react-scripts": "1.1.0"
     },
+    "homepage": "https://donsalvadori.github.io/salaries-old",
     "dependencies": {
-        "d3": "4.5.0",
-        "react": "15.4.2",
-        "react-dom": "15.4.2",
-        "react-select": "1.0.0-rc.3",
-        "topojson": "3.0.2",
-        "topojson-client": "3.0.0"
+        "bootstrap": "^3.3.7",
+        "d3": "^4.2.6",
+        "lodash": "^4.16.1",
+        "react": "^15.3.2",
+        "react-bootstrap": "^0.30.3",
+        "react-dom": "^15.3.2",
+        "string": "^3.3.1",
+        "topojson": "^1.6.27"
     },
     "scripts": {
         "start": "react-scripts start",
         "build": "react-scripts build",
         "test": "react-scripts test --env=jsdom",
         "eject": "react-scripts eject",
-        "deploy": "npm run build&&gh-pages -d build"
+        "deploy": "npm run build && gh-pages -d build"
     }
 }
